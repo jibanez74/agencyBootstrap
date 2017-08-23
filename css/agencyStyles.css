@@ -1,0 +1,102 @@
+body, html {height: 100%;}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font: 14px arial;
+}
+
+.img-full {
+    width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #313461;
+    border-color: #313461;
+}
+
+.jumbotron {
+    background: #333 url("../img/bg.jpg") -400px -200px;
+    color: white;
+    text-align: center;
+    border-bottom: 5px lightgray;
+}
+
+.jumbotron-main {
+    padding: 0 60px 40px 60px;    
+    margin-bottom: 30px;
+}
+
+.jumbotron-main h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-main .lead {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.jumbotron .jumbotron-sub {
+
+}
+
+.navbar {
+    color: white;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.navbar a {
+    color: white;
+    margin-bottom: 3px;
+}
+
+.navbar a:hover, .navbar a:focus {
+    background: none !important;
+    border-bottom: white 3px solid;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-header .navbar-brand,
+.navbar .navbar-header .navbar-brand:hover,
+.navbar .navbar-header .navbar-brand:focus {
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.box {
+    text-align: center;
+}
+
+.box .glyphicon {
+    font-size: 50px;
+}
+
+.section-a {
+    background: #313461;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.section-a h1 {
+    font-size: 55px;
+    color: white;
+}
+
+footer {
+    text-decoration: none;
+    padding: 20px;
+    background: lightgray;
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+}
