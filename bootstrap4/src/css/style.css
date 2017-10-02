@@ -1,0 +1,29 @@
+body, html {
+  height: 100%; }
+
+body {
+  overflow-x: hidden; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding: 1em !important; }
+
+.navbar .nav-item .active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  height: 450px; }
+
+#slide1 {
+  background: url("../img/image1.jpg");
+  background-size: cover; }
+
+#slide2 {
+  background: url("../img/image2.jpg");
+  background-size: cover; }
+
+#slide3 {
+  background: url("../img/image3.jpg");
+  background-size: cover; }
